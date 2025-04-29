@@ -1,5 +1,5 @@
 ## install env
-conda env create -f folder_path\image_detect\requirement.yml
+conda env create -f folder_path\bot_multi\requirement.yml
 activate chat
 
 ## bot_multi
