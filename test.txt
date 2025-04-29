@@ -1,0 +1,20 @@
+## install env
+conda env create -f folder_path\image_detect\requirement.yml
+activate chat
+
+## bot_multi
+python folder_path\bot_multi\bot_multi.py folder_path
+
+# test
+http://host_ip/port_ip/updatefaq
+http://host_ip/port_ip/load_model
+http://host_ip/port_ip/updatemodel
+
+http://host_ip/port_ip/dscbot?text=瀏覽器打不開
+
+http://host_ip/port_ip/lang_detect?text=瀏覽器打不開
+http://host_ip/port_ip/translate?text=刷單行為&lan=英文
+http://host_ip/port_ip/judge_translate?func=faq&original_lang=zh-TW&translate_lang=en&env=102
+http://host_ip/port_ip/chat?text=手機收不到驗證碼&model=gemma2&lan=英文
+http://host_ip/port_ip/gen?text=刷單行為&n=5
+http://host_ip/port_ip/judge_single?original_text=刷單行為&translate_text=hello
